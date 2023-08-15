@@ -1,0 +1,18 @@
+.tour__container{
+    background-image: url(../../../../../public/imags/tourCovers.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 590px;
+}
+.tour__span{
+    color: var(--gummakad-color);
+}
+
+.tour__text{
+    border-left: 5px solid var(--gummakad-color);
+    padding-left: 20px;
+    text-align: justify;
+}
+.tour__textList{
+    text-align: justify;
+}

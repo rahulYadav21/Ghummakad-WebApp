@@ -1,0 +1,28 @@
+.scrollPageThree__container{
+    background: #fa7435;
+                                            /* Chrome 10-25, Safari 5.1-6 */
+    /* background: -webkit-linear-gradient(to right, rgba(250,116,53,1), rgba(253,193,6,1)); */
+                                            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: linear-gradient(to right, rgba(250,116,53,1), rgba(253,193,6,1)); */
+    color: rgb(255, 255, 255);
+}
+.border22{
+    /* border :1px solid black !important; */
+    background-color: white;
+    color: gray;
+    box-shadow: rgb(255, 255, 255) 0px 7px 29px 0px;
+    text-justify: inter-word;
+    text-align: justify;
+}
+.icon-1, .ScrollPageThree__banner_1{
+    color: rgba(81, 192, 226, 0.719);
+}
+.icon-2, .ScrollPageThree__banner_2{
+    color: rgb(85, 214, 81);
+}
+.icon-3 , .ScrollPageThree__banner_3{
+    color: rgba(241, 83, 83, 0.849);
+}
+.scrollPageThree__hrLine{
+    border: 1px solid white !important;
+}

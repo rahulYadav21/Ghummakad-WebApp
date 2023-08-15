@@ -1,0 +1,26 @@
+.signUp__form{
+    width: 35% !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+@media screen and (max-width : 600px) {
+    .signUp__form{
+        width: 100% !important;
+        box-shadow: none;
+    }
+}
+.signUp__button{
+    background-color: var(--gummakad-color) !important;  
+}
+.signUp__forgotText a
+{
+    color: var(--gummakad-color) !important;  
+}
+.signUp__icon{
+    background-color: var(--gummakad-color) !important;
+    color: white !important;
+}
+.signUp__icon:hover{
+    color: var(--gummakad-color) !important;
+    border:1px solid var(--gummakad-color) !important;
+    background-color: white !important;
+}

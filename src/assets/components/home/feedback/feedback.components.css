@@ -1,0 +1,34 @@
+.feedback__comments{
+    /* height: 400px; */
+}
+.feedback__container{
+    background: #fa7435;
+    color: white;
+                                        /* Chrome 10-25, Safari 5.1-6 */
+    /* background: -webkit-linear-gradient(to right, rgba(250,116,53,1), rgba(253,193,6,1)); */
+                                        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: linear-gradient(to right, rgba(250,116,53,1), rgba(253,193,6,1)); */
+}
+.feedback__row{
+    padding-top: 50px;
+}
+.feedback__carouselComments{
+    padding-bottom: 50px !important;
+}
+.feedback__hrLine{
+    border: 1px solid white !important;
+}
+@media screen and (max-width : 600px) {
+    .feedback__heading, .feedback__paragraph{
+        text-align: center;
+    }
+    .feedback__container{
+        padding-bottom: 50px;
+    }
+    .feedback__row{
+        padding-top: 0px;
+    }
+    .feedback__carouselComments{
+        padding-bottom: 0px !important;
+    }
+}

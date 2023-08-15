@@ -1,0 +1,25 @@
+.scrollPageTwo__leftColumn img{
+    border-radius: 10px !important;
+}
+.scrollPageTwo__heading{
+    padding: 10px;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.borderColor_1{
+    border-bottom: 10px solid rgba(240, 169, 88, 0.705);
+    border-right: 10px solid rgb(240, 169, 88,  0.705);
+}
+.borderColor_2{
+    border-bottom: 10px solid rgba(138, 226, 37, 0.76);
+    border-right: 10px solid rgb(138, 226, 37, 0.76);
+}
+.borderColor_3{
+    border-bottom: 10px solid rgba(66, 206, 224, 0.568);
+    border-right: 10px solid rgb(66, 206, 224, 0.568);
+}
+.scrollPageTwo__text{
+    text-align: justify;
+
+}

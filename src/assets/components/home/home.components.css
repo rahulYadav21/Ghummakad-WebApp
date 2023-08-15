@@ -1,0 +1,32 @@
+.home__heading{
+    font-size: 50px !important;
+}
+.home_paragraph{
+    font-size: 20px !important;
+}
+.home__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home__scrollBtn, .home__discoverBtn{
+    background-color: var(--gummakad-color) !important;
+}
+.home__discoverBtn:hover{
+    background-color: white !important;
+    color: var(--gummakad-color) !important;
+    border: 2px solid var(--gummakad-color) !important;
+    transition: color 100ms ease-out;
+}
+.home__scrollBtn:hover{
+    background-color: white !important;
+    color: var(--gummakad-color) !important;
+    border: 2px solid var(--gummakad-color) !important;
+}
+.home__spanForColor{
+    color: var(--gummakad-color);
+}
+.home__spanForColor abbr{
+    border-bottom: none !important;
+    text-decoration: none !important;
+}

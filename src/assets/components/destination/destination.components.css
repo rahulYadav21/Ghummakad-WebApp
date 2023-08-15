@@ -1,0 +1,15 @@
+.main__destination__carousel{
+    height: 500px !important;
+    max-width: 100%;
+    min-width: 100%;
+    border: 1px solid blackc;
+}
+.destination__carousel{
+    height: 500px !important;
+}
+.span{
+    color: var(--gummakad-color);
+}
+.destination__hrline{
+    border: 1px solid var(--gummakad-color) !important;
+}
