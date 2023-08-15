@@ -34,7 +34,7 @@ export default function Subscribe(){
                             </form>
                         </MDBCol>
                     <MDBCol lg={4} md={4} sm={12}>
-                        <img className='imf-fluid w-100' src="../../public/XliJ.gif" alt="subscribe side image" />
+                        <img className='imf-fluid w-100' src="https://firebasestorage.googleapis.com/v0/b/ghummakad-bad15.appspot.com/o/XliJ.gif?alt=media" alt="subscribe side image" />
                     </MDBCol>
                 </MDBRow>
             </MDBContainer>

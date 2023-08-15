@@ -40,6 +40,10 @@
     background-color: var(--gummakad-color) !important;
   }
   .exclusive__link{
+    display: flex;
+    justify-content: center;
+  }
+  .exclusive__link1{
     color: var(--gummakad-color) !important;
   }
   .image__text{

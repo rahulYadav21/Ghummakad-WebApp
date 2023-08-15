@@ -9,9 +9,10 @@ export default function Footer() {
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
-              <h2 className='text-uppercase fw-bold mb-4'>
-                Ghummakad
-              </h2>
+              <MDBRow className=''>
+                <MDBCol lg="2" md="2" sm="2"><img src="https://firebasestorage.googleapis.com/v0/b/ghummakad-bad15.appspot.com/o/Footer.png?alt=media" alt="footer image" height={35}/></MDBCol>
+                <MDBCol><h2 className='text-uppercase fw-bold mb-4'>Ghummakad</h2></MDBCol>
+              </MDBRow>
               <p>
               Book your trip in a minute, and enjoy your destination trip.
               </p>

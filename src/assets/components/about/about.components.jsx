@@ -10,7 +10,7 @@ export default function About(){
                     {/* <MDBTypography variant='p' className='lead ps-5 pt-5 fw-bold'>
                         About
                     </MDBTypography> */}
-                    <MDBTypography variant='h1' className='display-1 p-5'>
+                    <MDBTypography variant='h1' className='display-1 p-lg-5 p-md-5 p-sm-0'>
                         We&#x384;re a Tour & Travel agency with a taste for outstanding Packages and Deals....
                     </MDBTypography>
                     <MDBTypography variant='p' className='lead ps-lg-5 p-md-5 p-sm-5'>
@@ -29,7 +29,7 @@ export default function About(){
                 <hr className="hr hr-blurry about__hrLine" />
                     <MDBRow>
                         <MDBCol lg={6} md={6} sm={12} className='about__imageBox'>
-                            <img src="../../../../../public/imags/about_1.jpg" alt="about imag 1" className='img-fluid p-lg-5 p-md-5 p-sm-5' />
+                            <img src="https://firebasestorage.googleapis.com/v0/b/ghummakad-bad15.appspot.com/o/image%2Fabout_1.jpg?alt=media" alt="about imag 1" className='img-fluid p-lg-5 p-md-5 p-sm-5' />
                         </MDBCol>
                         <MDBCol lg={6} md={6} sm={12} className='about__aboutTextBox ps-lg-5 ps-md-5 ps-sm-0 pe-lg-5 pe-md-5 pe-sm-0'>
                             <MDBTypography variant='p' className='lead p-lg-5 p-md-5 p-sm-5'>
@@ -50,7 +50,7 @@ export default function About(){
                             </MDBTypography>
                         </MDBCol>
                         <MDBCol lg={6} md={6} sm={12} className='about__imageBox'>
-                            <img src="../../../../../public/imags/about_2.jpg" alt="about imag 1" className='img-fluid p-lg-5 p-md-5 p-sm-5' />
+                            <img src="https://firebasestorage.googleapis.com/v0/b/ghummakad-bad15.appspot.com/o/image%2Fabout_2.jpg?alt=media" alt="about imag 1" className='img-fluid p-lg-5 p-md-5 p-sm-5' />
                         </MDBCol>
                     </MDBRow>
                 </MDBContainer>

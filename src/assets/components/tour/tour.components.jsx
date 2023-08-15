@@ -15,9 +15,9 @@ export default function Tour(){
                     </MDBTypography>
                 </MDBContainer>
                 <MDBContainer className='p-lg-5 p-md-5 p-sm-0'>
-                <MDBTypography variant='p' className='display-5 tour__text'>
-                    If <span className='tour__span'>"you need our Guide"</span> and want to enjoy our services to get the best experience out of your favourite visiting place, connect with us from here, and we will give you the best experience.
-                </MDBTypography>
+                    <MDBTypography variant='p' className='display-5 tour__text'>
+                        If <span className='tour__span'>"you need our Guide"</span> and want to enjoy our services to get the best experience out of your favourite visiting place, connect with us from here, and we will give you the best experience.
+                    </MDBTypography>
                 </MDBContainer>
                 <MDBContainer className='p-lg-5 p-md-5 p-sm-0'>
                     <MDBTypography variant='h' className='display-5 tour__text'>

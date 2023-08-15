@@ -46,9 +46,9 @@ export default function CarouselTwo(){
                                 <img src={image} alt={name} className="person-img" />
                                 <p className="lead name">{name}</p>
                                 <p className="title">{title}</p>
-                                <hr/>
+                                <hr className="hr hr-blurry feedback__hrLine" />
                                 <i className="text">{quote}</i>
-                                {/* <hr/> */}
+                                <hr className="hr hr-blurry feedback__hrLine" />
                             </article>
                             </div>
                         );   

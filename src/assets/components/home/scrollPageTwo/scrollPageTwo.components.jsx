@@ -16,7 +16,7 @@ export default function ScrollPageTwo(){
                         <div className='scrollPageTwo__leftColumn'>
                             <figure className='figure'>
                                 <img
-                                    src='../../public/scrollPageTwo.png'
+                                    src='https://firebasestorage.googleapis.com/v0/b/ghummakad-bad15.appspot.com/o/scrollPageTwo.png?alt=media'
                                     className='rounded img-fluid'
                                     alt='Image'
                                 />

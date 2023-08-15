@@ -12,14 +12,14 @@ export default function ContactUs(){
                     {/* <MDBTypography variant='p' className='lead ps-5 pt-5 fw-bold'>
                         Contact
                     </MDBTypography> */}
-                    <MDBTypography variant='h1' className='display-1 p-5'>
+                    <MDBTypography variant='h1' className='display-1 p-lg-5 p-md-5 p-sm-0'>
                         We&#x384;re here to help<br/>you level up
                     </MDBTypography>
                 </MDBContainer>
                 <MDBContainer>
                     <MDBRow>
-                        <MDBCol lg={5} md={5} sm={12} className='ps-5 pe-5'>
-                            <MDBTypography variant='h4' className='ps-lg-5 ps-md-5 ps-sm-0 pe-lg-5 pe-md-5 pe-sm-0 fw-light'>
+                        <MDBCol lg={5} md={5} sm={12} className='ps-lg-5 ps-md-5 ps-sm-0 pe-lg-5 pe-md-5 pe-sm-0'>
+                            <MDBTypography variant='h4' className='contactUs_text ps-lg-5 ps-md-5 ps-sm-0 pe-lg-5 pe-md-5 pe-sm-0 fw-light'>
                                 We&#x384;re just one click away to help you take your brand or product from great to incredible. Fill in the form to share more details about your project. Or your favorite gum flavor. Either way, we&#x384;d love to talk.
                             </MDBTypography>
                         </MDBCol>

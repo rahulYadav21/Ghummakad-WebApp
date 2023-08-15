@@ -3,7 +3,7 @@ export const exclusiveDealsIndia = [
         id:1,
         image:"https://media.istockphoto.com/id/535168027/photo/india-goa-palolem-beach.jpg?s=612x612&w=0&k=20&c=iGV1Ue0Efj87dQirWnUpZVG1dNobUjfVvMGdKHTJ7Qg=",
         name:"Goa",
-        price:"15,999",
+        price:"Rs.15,999",
         time:"3D/4N",
         location:"https://goo.gl/maps/hmZLGRcscF28Db796"
     },
@@ -11,7 +11,7 @@ export const exclusiveDealsIndia = [
         id:2,
         image:"https://www.tripexperienceblog.com/wp-content/uploads/2018/04/Andaman-Nicobar-Islands-1.jpg",
         name:"Andaman and Nicobar",
-        price:"42,198",
+        price:"Rs.42,198",
         time:"4D/5N",
         location:"https://goo.gl/maps/Nj6q5DeYD1WF4HcR6"
     },
@@ -19,7 +19,7 @@ export const exclusiveDealsIndia = [
         id:3,
         image:"https://images.cnbctv18.com/wp-content/uploads/2022/12/jammu-kashmir-shutterstock-1019x573.jpg",
         name:"Jammu and Kashmir",
-        price:"23,230",
+        price:"Rs.23,230",
         time:"5D/6N",
         location:"https://goo.gl/maps/vLvPmdAKS3JF5rW57"
     },
@@ -27,7 +27,7 @@ export const exclusiveDealsIndia = [
         id:4,
         image:"https://www.tourmyindia.com/states/uttarakhand/image/mussoorie-nature.webp",
         name:"Mussoorie",
-        price:"9,999",
+        price:"Rs.9,999",
         time:"7D/6N",
         location:"https://goo.gl/maps/TCeMwmaRyvwfkmWUA"
     },
@@ -35,14 +35,14 @@ export const exclusiveDealsIndia = [
         id:5,
         image:"https://www.makeplans.in/wp-content/uploads/2018/07/taj-exotica-resort-spa-packages-makeplans.jpg",
         name:"Maldives",
-        price:"74,920",
+        price:"Rs.74,920",
         time:"4N/5D",
         location:"https://goo.gl/maps/2kPq8cqnoxD39qPQ7"
     },{
         id:6,
         image:"https://imgcld.yatra.com/ytimages/image/upload/t_holidays_srplist_tablet_hc/v1452674556/Kerala_222.jpg",
         name:"Kerala",
-        price:"10,000",
+        price:"Rs.10,000",
         time:"2N/3D",
         location:"https://goo.gl/maps/qKk46j3JENEPSwTK9"
     }

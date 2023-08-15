@@ -30,7 +30,7 @@ export default function Navbar() {
       <MDBContainer fluid className='ms-lg-5 ms-md-5 ms-sm-0 me-lg-5 me-md-5 me-sm-0'>
         <MDBNavbarBrand className='nav__togle'>
             <div className="logo__nav">
-                    <img src='../../public/logomain.png' alt='LOGO' className=' ms-lg-5 ms-md-5 ms-sm-0 logo__image' onClick={()=>{navigate("/")}}/>
+                    <img src='https://firebasestorage.googleapis.com/v0/b/ghummakad-bad15.appspot.com/o/logomain.png?alt=media' alt='LOGO' className=' ms-lg-5 ms-md-5 ms-sm-0 logo__image' onClick={()=>{navigate("/")}}/>
             </div>
         </MDBNavbarBrand>
         <MDBNavbarToggler

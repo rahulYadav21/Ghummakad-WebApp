@@ -37,20 +37,20 @@ export default function Home(){
                     <MDBCol lg='6' md='6' sm='12'>
                         <figure className='figure'>
                             <img
-                                src='../../public/Home.jpg'
+                                src='https://firebasestorage.googleapis.com/v0/b/ghummakad-bad15.appspot.com/o/Home.jpg?alt=media&'
                                 className='figure-img img-fluid p-5'
-                                alt='...'
+                                alt='home cover picture'
                             />
                         </figure>
                     </MDBCol>
                 </MDBRow>
-                <div className='home__icon'>
+                {/* <div className='home__icon'>
                     <MDBBtn floating tag='a' className='home__scrollBtn'onClick={()=>{
                         navigate('/scrollPageTwo');
                     }} >
                         <MDBIcon fas icon="angle-double-down"/>
                     </MDBBtn>
-                </div>
+                </div> */}
             </MDBContainer>
             <ScrollPageTwo/>
         </>

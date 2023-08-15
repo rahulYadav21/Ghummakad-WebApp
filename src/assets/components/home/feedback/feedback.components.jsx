@@ -25,9 +25,9 @@ export default function Feedback(){
                                 Our Clients send us bunch of smiles with our services <br /> and we love them.
                             </MDBTypography>
                         </MDBCol>
-                        <MDBCol lg='7' md='7' sm='12' className='pb-5 feedback__carouselComments'>
+                        <MDBCol lg='7' md='7' sm='12' className=' feedback__carouselComments'>
                             <MDBContainer fluid className="feedback__comments">
-                                {/* <CarouselTwo/> */}
+                                <CarouselTwo/>
                             </MDBContainer>
                         </MDBCol>
                     </MDBRow>

@@ -1,43 +1,43 @@
 const imageSlider=[
     {
         id:1,
-        image:"../../../../../public/imags/destinationCarousel/1.jpg"
+        image:"https://firebasestorage.googleapis.com/v0/b/ghummakad-bad15.appspot.com/o/carousel%2F1.jpg?alt=media"
     },
     {
         id:2,
-        image:"../../../../../public/imags/destinationCarousel/2.jpg"
+        image:"https://firebasestorage.googleapis.com/v0/b/ghummakad-bad15.appspot.com/o/carousel%2F2.jpg?alt=media"
     },
     {
         id:3,
-        image:"../../../../../public/imags/destinationCarousel/3.jpg"
+        image:"https://firebasestorage.googleapis.com/v0/b/ghummakad-bad15.appspot.com/o/carousel%2F3.jpg?alt=media"
     },
     {
         id:4,
-        image:"../../../../../public/imags/destinationCarousel/4.jpg"
+        image:"https://firebasestorage.googleapis.com/v0/b/ghummakad-bad15.appspot.com/o/carousel%2F4.jpg?alt=media"
     },
     {
         id:5,
-        image:"../../../../../public/imags/destinationCarousel/5.jpg"
+        image:"https://firebasestorage.googleapis.com/v0/b/ghummakad-bad15.appspot.com/o/carousel%2F5.jpg?alt=media"
     },
     {
         id:6,
-        image:"../../../../../public/imags/destinationCarousel/6.jpg"
+        image:"https://firebasestorage.googleapis.com/v0/b/ghummakad-bad15.appspot.com/o/carousel%2F6.jpg?alt=media"
     },
     {
         id:7,
-        image:"../../../../../public/imags/destinationCarousel/7.jpg"
+        image:"https://firebasestorage.googleapis.com/v0/b/ghummakad-bad15.appspot.com/o/carousel%2F7.jpg?alt=media"
     },
     {
         id:8,
-        image:"../../../../../public/imags/destinationCarousel/8.jpg"
+        image:"https://firebasestorage.googleapis.com/v0/b/ghummakad-bad15.appspot.com/o/carousel%2F8.jpg?alt=media"
     },
     {
         id:9,
-        image:"../../../../../public/imags/destinationCarousel/9.jpg"
+        image:"https://firebasestorage.googleapis.com/v0/b/ghummakad-bad15.appspot.com/o/carousel%2F9.jpg?alt=media"
     },
     {
         id:10,
-        image:"../../../../../public/imags/destinationCarousel/10.jpg"
+        image:"https://firebasestorage.googleapis.com/v0/b/ghummakad-bad15.appspot.com/o/carousel%2F10.jpg?alt=media"
     },
 ]
 export default imageSlider;

@@ -8,7 +8,7 @@ export default function Cradits(){
             <MDBContainer className='p-5 mt-5 bg-dark cradits__sections'>
                 <MDBRow className='p-lg-4 p-md-5 p-sm-0'>
                     <MDBCol lg={4} md={4} sm={12}>
-                        <img className='img-fluid' src="../../../../../public/imags/contactUs.jpg" alt="contact Picture" />
+                        <img className='img-fluid' src="https://firebasestorage.googleapis.com/v0/b/ghummakad-bad15.appspot.com/o/image%2FcontactUs.jpg?alt=media" alt="contact Picture" />
                     </MDBCol>
                     <MDBCol lg={8} md={8} sm={12} className='cradits__text'>
                         <div className=' p-lg-5 p-md-5 p-sm-0 mt-5 cradits__text1'>

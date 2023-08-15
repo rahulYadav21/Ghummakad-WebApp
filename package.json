@@ -1,7 +1,7 @@
 {
   "name": "ghummakad",
   "private": true,
-  "homepage": "http://rahulYadav21.github.io/ghummakad_repo", 
+  "homepage": "http://rahulYadav21.github.io/ghummakad_repo",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
+    "firebase": "^8.6.8",
     "mdb-react-ui-kit": "^6.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
