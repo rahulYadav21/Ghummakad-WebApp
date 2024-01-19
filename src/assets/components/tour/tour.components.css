@@ -1,0 +1,30 @@
+.tour__container{
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/ghummakad-bad15.appspot.com/o/image%2FtourCovers.jpg?alt=media);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 590px;
+    /* border: 2px solid red ; */
+}
+.tour__span{
+    color: var(--gummakad-color);
+}
+
+.tour__text{
+    border-left: 5px solid var(--gummakad-color);
+    padding-left: 20px;
+    text-align: justify;
+}
+.tour__textList{
+    text-align: justify;
+}
+@media screen and (max-width : 600px) {
+    .tour__container1{
+        padding: 30px;
+    }
+    .tour__container2{
+        padding: 0px;
+    }
+    .tour__container3{
+        padding: 30px;
+    }
+}

@@ -1,0 +1,17 @@
+.cradits__sections{
+    /* padding: 200px; */
+}
+.cradits__text1{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    /* line-height: 100px; */
+}
+
+@font-face {
+    font-family:'Rockybilly';
+    src: url(../../../../../public/fonts/Rockybilly.ttf);
+}
+.cradits__text h6{
+    font-family:'Rockybilly' !important;
+}

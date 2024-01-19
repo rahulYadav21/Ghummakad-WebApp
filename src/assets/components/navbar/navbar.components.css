@@ -1,0 +1,32 @@
+.logo__nav img{
+    max-width: 75%;
+    max-height: 75px;
+}
+.nav__togle{
+    width: 30% ;
+}
+@media screen and (max-width : 600px) {
+    .nav__togle{
+        width: 50%;
+        }
+}
+.nav__signInBtn{
+    background-color: var(--gummakad-color) !important;
+}
+.nav__LogoutBtn{
+    background-color: var(--gummakad-color) !important;
+    /* display: none; */
+    /* overflow: hidden; */
+}
+.navbar__hoverEfect{
+    color: var(--gummakad-color) !important;
+}
+.navbar__hoverEfect:hover{
+    color: var(--gummakad-background) !important;
+}
+.logo__image{
+    cursor: pointer;
+}
+.logo__image:hover{
+    opacity: 0.8;
+}

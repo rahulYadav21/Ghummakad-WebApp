@@ -1,0 +1,69 @@
+.about__hrLine{
+    border: 1px solid var(--gummakad-color) !important;   
+}
+.about__hrLine1{
+    border: 2px solid black !important;
+}
+.about__imageBox{
+    /* height: 500px !important; */
+    /* width: 550px !important; */
+    /* border: 1px solid black !important; */
+}
+.about__aboutTextBox{
+    text-align: justify !important;
+}
+.about__background{
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/ghummakad-bad15.appspot.com/o/image%2F185406.jpg?alt=media);
+    height: 500px !important;
+    background-size: 100%;
+}
+.about__background__text{
+    color:white !important;
+    opacity: 1;
+    position: relative;
+}
+.background__shadow{
+    background-color: black !important;
+    height: 350px !important;
+    position:absolute;
+    margin-top: 70px;
+    margin-left: 70px !important;
+    width: 100% !important;
+    opacity: 0.7;
+}
+.about__background__text1{
+    text-align: justify;
+}
+@media screen and (max-width : 600px) {
+    .about__background{
+        height: 655px !important;
+        margin-top: 100px;
+        background-size: cover;
+        background-position: center;
+    }
+    .background__shadow{
+        height: 630px !important;
+        margin-top:10px !important;
+        margin-left:0px !important;
+        /* margin-bottom:10px !important; */
+        /* margin-right:10px !important; */
+        width: 93% !important;
+    }
+    .about__background__text{
+        margin-top: 20px;
+    }
+    .about__container{
+        padding-top: 30px;
+    }
+}
+
+.about__icons__text{
+    background-color: var(--gummakad-color);
+    text-align: justify !important;
+}
+.about__icons{
+    background-color: var(--gummakad-background);
+}
+.about__icons_1{
+    color: var(--gummakad-color);
+}

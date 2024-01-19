@@ -1,0 +1,40 @@
+.contact__formInput{
+background-color: var(--gummakad-color);
+color: white !important;
+}
+.contactUs__label{
+    color: white !important;
+}
+.contactUs__input{
+    /* border: 1px solid white !important; */
+    color: white !important;
+    font-weight: bold;
+    /* border-radius: 30px !important; */
+}
+.contactUs__input:focus{
+    background-color: white !important;
+    color: var(--gummakad-color) !important;
+    font-weight: bold;
+    /* border:; */
+}
+.contactUs__cradits{
+    padding: 100px;
+}
+@media screen and (max-width : 600px) {
+    .contactUs__cradits{
+        padding: 0px !important;
+    }
+    .contact__container{
+        padding-top: 30px;
+    }
+}
+.contactUs__btn{
+    color: var(--gummakad-color) !important;
+}
+.contactUs__btn:hover{
+    color: white !important;
+    background-color: #e4a11b !important;
+}
+.contactUs_text{
+    text-align: justify;
+}

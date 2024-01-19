@@ -1,0 +1,116 @@
+
+@media screen and (max-width : 600px) {
+    .destinatinCarousel__sectionCenter{
+        width: 100% !important;
+        padding-left: 0px !important;
+    }
+    .destinatinCarousel__section{
+        height: 600px !important;
+        padding-bottom: 0px !important;
+    }
+    .destinatinCarousel__personImage{
+        width: 100% !important;
+        height: 600px !important;
+        object-fit: cover;
+        background-size: cover;
+        background-position: center center;
+    }
+}
+.destinatinCarousel__sectionCenter{
+    height: 600px;
+    overflow: hidden;
+    position:relative ;
+    display: flex;
+    color: white !important;
+}
+.destinatinCarousel__article article{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.3s linear; 
+}    
+.destinatinCarousel__article article.activeSlide { 
+    opacity: 1;
+    transform: translateX(0);
+}
+.destinatinCarousel__article article.lastSlide {
+    transform: translateX(-100%);
+}
+.destinatinCarousel__article article.nextSlide {
+    transform: translateX(100%);
+}    
+.destinatinCarousel__personImage{
+    width: 100% !important;
+    height: 600px !important;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center center;
+}    
+/* .name{
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+    color: white;
+}    
+.destinatinCarousel__title {
+    text-transform:uppercase;
+    margin-bottom: 0.75rem;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    color: red;
+}    
+    .text{
+    max-width: 35em;
+    text-align: justify;
+    color: white;
+    }
+    
+    .prev,
+    .next {
+    position: absolute;
+    top: 200px;
+    transform: translateY(-50%);
+    background: hsl(218, 22%, 49%);
+    color: #fff;
+    width: 1.25rem;
+    height: 1.25rem;
+    display: grid;
+    place-items: center;
+    border-color: transparent;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    }
+    
+    .prev:hover,
+    .next:hover {
+    background: hsl(21, 62%, 45%);
+    }
+    
+    .prev {
+    left: 0;
+    }
+    
+    .next{
+    right:0;
+    }
+
+    @media (min-width:800px){
+        .text{
+            max-width: 45em;
+        }
+        .prev,
+        .next{
+            width: 2rem;
+            height: 2rem;
+            font-size: 1.5rem;
+        }
+    }
+    */
+/* .feedback__hrLine{
+        border: 1px solid white !important;
+    } */
