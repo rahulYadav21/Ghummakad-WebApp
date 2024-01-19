@@ -30,3 +30,8 @@
     border-bottom: none !important;
     text-decoration: none !important;
 }
+@media screen and (max-width : 600px) {
+    .home__container{
+        padding-top: 30px;
+    }
+}

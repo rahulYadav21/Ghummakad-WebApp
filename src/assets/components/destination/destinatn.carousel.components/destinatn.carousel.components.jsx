@@ -1,21 +1,20 @@
-// import { MDBCarousel, MDBCarouselItem } from 'mdb-react-ui-kit';
+import React, { useEffect, useState } from "react";
+import people from './data';
 import './destinatn.carousel.components.css';
-import { useEffect, useState } from 'react';
-import imageSlider from './data';
 
-export default function DestinationCarousel(){
+export default function CarouselTwo(){
     const [index, setIndex] = useState(0);
-    console.log(imageSlider)
+    console.log(people)
 
     useEffect(()=>{
-        const lastIndex = imageSlider.length - 1;
+        const lastIndex = people.length - 1;
         if(index < 0){
             setIndex(lastIndex);
         }
         if(index > lastIndex){
             setIndex(0);
         }
-    }, [index, imageSlider]);
+    }, [index, people]);
 
     useEffect(()=>{
         let slider = setInterval(()=>{
@@ -27,32 +26,26 @@ export default function DestinationCarousel(){
     }, [index]);
     return (
         <>
-            <section className="section">
-                <div className="section-center">
-                    {imageSlider.map((item, indexPeople) => {
-                        const {id, image} = item;
+            <section className="destinatinCarousel__section">
+                <div className="destinatinCarousel__sectionCenter">
+                    {people.map((item, indexPeople) => {
+                        const {id, image, name,title, quote} = item;
                         let position = 'nextSlide';
                         if(indexPeople===index){
                             position = 'activeSlide';
                         }
-                        if(indexPeople === index - 1 || (index === 0 && indexPeople === imageSlider.length - 1)){
+                        if(indexPeople === index - 1 || (index === 0 && indexPeople === people.length - 1)){
                             position = 'lastSlide';
                         }
                         return (
-                            <div className="article">
+                            <div className="destinatinCarousel__article">
                             <article className={position} key={id}>
-                                <img src={image} alt={name} className="person-img" />
+                                <img src={image} alt={name} className="destinatinCarousel__personImage"/>
                             </article>
                             </div>
                         );   
                     })}
-                    {/* <button className="prev" onclick={() => setIndex(index + 1)}>
-                        <i className="fas fa-arrow-right" />
-                    </button>
-                    <button className="next" onclick={() => setIndex(index - 1)}>
-                        <i className="fa fa-arrow-left" />
-                    </button> */}
-                </div>
+                    </div>
             </section>
         </>
     );

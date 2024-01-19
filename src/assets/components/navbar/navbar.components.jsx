@@ -83,6 +83,7 @@ export default function Navbar() {
                 Sign Up
             </MDBBtn>
           </MDBBtnGroup>
+          {/* <MDBBtn type='button' size='lg' className='nav__LogoutBtn'>Logout</MDBBtn> */}
         </MDBCollapse>
       </MDBContainer>
     </MDBNavbar>

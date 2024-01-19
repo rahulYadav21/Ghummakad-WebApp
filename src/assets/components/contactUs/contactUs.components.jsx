@@ -8,10 +8,7 @@ export default function ContactUs(){
     return (
         <>
             <MDBContainer fluid>
-                <MDBContainer className='p-lg-5 p-md-5 p-sm-5'>
-                    {/* <MDBTypography variant='p' className='lead ps-5 pt-5 fw-bold'>
-                        Contact
-                    </MDBTypography> */}
+                <MDBContainer className='p-lg-5 p-md-5 p-sm-5 contact__container'>
                     <MDBTypography variant='h1' className='display-1 p-lg-5 p-md-5 p-sm-0'>
                         We&#x384;re here to help<br/>you level up
                     </MDBTypography>
@@ -28,15 +25,15 @@ export default function ContactUs(){
                             <label htmlFor='basic-url1`' className='form-label fw-bold contactUs__label'>
                                 What&#x384;s your name?
                             </label>
-                            <MDBInput id='typeText' type='text' size='lg' className='contactUs__input'/><br/>
+                            <MDBInput id='typeText' type='text' size='lg' className='contactUs__input'/>
                             <label htmlFor='basic-url1`' className='form-label pt-5 fw-bold contactUs__label'>
                                 Your email
                             </label>
-                            <MDBInput id='typeText' type='email' size='lg' className='contactUs__input'/><br/>
+                            <MDBInput id='typeText' type='email' size='lg' className='contactUs__input'/>
                             <label htmlFor='basic-url1`' className='form-label pt-5 fw-bold contactUs__label'>
                                 What can we help you with?
                             </label>
-                            <MDBTextArea id='textAreaExample' className='contactUs__input' rows={5}/><br/><br/>
+                            <MDBTextArea id='textAreaExample' className='contactUs__input' rows={5}/><br/>
                             <MDBBtn rounded size='lg' color='light' className='contactUs__btn fw-bold'>Send</MDBBtn>
                             </MDBContainer>
                         </MDBCol>

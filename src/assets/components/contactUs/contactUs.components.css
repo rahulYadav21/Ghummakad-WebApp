@@ -24,6 +24,9 @@ color: white !important;
     .contactUs__cradits{
         padding: 0px !important;
     }
+    .contact__container{
+        padding-top: 30px;
+    }
 }
 .contactUs__btn{
     color: var(--gummakad-color) !important;

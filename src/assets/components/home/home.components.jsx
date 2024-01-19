@@ -16,7 +16,7 @@ export default function Home(){
         <>
             <MDBContainer>
                 <MDBRow>
-                    <MDBCol lg='6' md='6' sm='12' className=''>
+                    <MDBCol lg='6' md='6' sm='12' className='home__container'>
                     <MDBTypography className='p-lg-5 p-md-5 p-sm-1'>
                         <MDBTypography  variant='h1' className='display-2'>
                             <span className='home__spanForColor'><abbr title='Gummakad'>G</abbr></span>et started your exciting journey with us.

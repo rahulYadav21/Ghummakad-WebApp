@@ -6,10 +6,7 @@ export default function About(){
     return (
         <>
             <MDBContainer fluid>
-                <MDBContainer className='p-lg-5 p-md-5 p-sm-5'>
-                    {/* <MDBTypography variant='p' className='lead ps-5 pt-5 fw-bold'>
-                        About
-                    </MDBTypography> */}
+                <MDBContainer className='p-lg-5 p-md-5 p-sm-5 about__container'>
                     <MDBTypography variant='h1' className='display-1 p-lg-5 p-md-5 p-sm-0'>
                         We&#x384;re a Tour & Travel agency with a taste for outstanding Packages and Deals....
                     </MDBTypography>

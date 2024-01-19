@@ -3,6 +3,7 @@
     background-size:cover;
     background-repeat: no-repeat;
     height: 590px;
+    /* border: 2px solid red ; */
 }
 .tour__span{
     color: var(--gummakad-color);
@@ -15,4 +16,15 @@
 }
 .tour__textList{
     text-align: justify;
+}
+@media screen and (max-width : 600px) {
+    .tour__container1{
+        padding: 30px;
+    }
+    .tour__container2{
+        padding: 0px;
+    }
+    .tour__container3{
+        padding: 30px;
+    }
 }

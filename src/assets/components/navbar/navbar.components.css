@@ -13,6 +13,11 @@
 .nav__signInBtn{
     background-color: var(--gummakad-color) !important;
 }
+.nav__LogoutBtn{
+    background-color: var(--gummakad-color) !important;
+    /* display: none; */
+    /* overflow: hidden; */
+}
 .navbar__hoverEfect{
     color: var(--gummakad-color) !important;
 }
