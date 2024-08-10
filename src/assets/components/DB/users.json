@@ -1,0 +1,157 @@
+{
+  "tourist": [
+    {
+      "id": "fc75"
+    },
+    {
+      "id": "89bc",
+      "name": "RAHUL YADAV",
+      "email": "rahulcs989@gmail.com",
+      "number": "09140621766",
+      "address": "591-IYA/1009, BRIJ VIHAR, TELIBAGH",
+      "district": "lucknow",
+      "state": "UTTAR PRADESH",
+      "password": "11111",
+      "gender": "male",
+      "role": "tourist"
+    },
+    {
+      "id": "24b8",
+      "name": "RAHUL YADAV",
+      "email": "rahulcs@gmail.com",
+      "number": "09140621766",
+      "address": "591-IYA/1009, BRIJ VIHAR, TELIBAGH",
+      "district": "lucknow",
+      "state": "UTTAR PRADESH",
+      "password": "11111",
+      "gender": "male",
+      "role": "tourist"
+    },
+    {
+      "id": "77a2",
+      "params": {
+        "email": "vishal@gmail.com",
+        "password": "11111"
+      }
+    },
+    {
+      "id": "5a50",
+      "params": {
+        "email": "vishal@gmail.com",
+        "password": "11111"
+      }
+    },
+    {
+      "id": null,
+      "name": "RAHUL YADAV",
+      "email": "rahulcs989@gmail.com",
+      "number": "9140621766",
+      "address": "591-IYA/1009, BRIJ VIHAR, TELIBAGH",
+      "district": "Lucknow",
+      "state": "UTTAR PRADESH",
+      "password": "11111",
+      "gender": "male",
+      "role": "tourist"
+    },
+    {
+      "id": null,
+      "name": "RAHUL YADAV",
+      "email": "rahulcs989@gmail.com",
+      "number": "09140621766",
+      "address": "591-IYA/1009, BRIJ VIHAR, TELIBAGH",
+      "district": "",
+      "state": "UTTAR PRADESH",
+      "password": "11111",
+      "gender": "male",
+      "role": "tourist"
+    },
+    {
+      "id": "829f",
+      "name": "RAHUL YADAV1",
+      "email": "rahulcs989@gmail.com",
+      "number": "09140621766",
+      "address": "591-IYA/1009, BRIJ VIHAR, TELIBAGH",
+      "district": "",
+      "state": "UTTAR PRADESH",
+      "password": "11111",
+      "gender": "male",
+      "role": "tourist"
+    }
+  ],
+  "guide": [
+    {
+      "id": "1389"
+    },
+    {
+      "id": "b285",
+      "name": "RAHUL YADAV",
+      "email": "rahulcs989@gmail.com",
+      "number": "09140621766",
+      "address": "591-IYA/1009, BRIJ VIHAR, TELIBAGH",
+      "district": "lucknow",
+      "state": "UTTAR PRADESH",
+      "password": "11111",
+      "gender": "male",
+      "role": "guide"
+    },
+    {
+      "id": "0708",
+      "name": "RAHUL YADAV",
+      "email": "rahulcs989@gmail.com",
+      "number": "09140621766",
+      "address": "591-IYA/1009, BRIJ VIHAR, TELIBAGH",
+      "district": "lucknow",
+      "state": "UTTAR PRADESH",
+      "password": "11111",
+      "gender": "male",
+      "role": "guide"
+    },
+    {
+      "id": "eb49",
+      "name": "vishal",
+      "email": "vishal@gmail.com",
+      "number": "123456789",
+      "address": "abc",
+      "district": "xyz",
+      "state": "qwe",
+      "password": "11111",
+      "gender": "male",
+      "role": "guide"
+    },
+    {
+      "id": "2437",
+      "params": {
+        "email": "vishal@gmail.com",
+        "password": "11111"
+      }
+    },
+    {
+      "id": "eb62",
+      "params": {
+        "email": "vishal@gmail.com",
+        "password": "11111"
+      }
+    },
+    {
+      "id": "a386",
+      "params": {
+        "email": "vishal@gmail.com",
+        "password": "11111"
+      }
+    },
+    {
+      "id": "e84b",
+      "params": {
+        "email": "vishal@gmail.com",
+        "password": "1111"
+      }
+    },
+    {
+      "id": "ddc8",
+      "params": {
+        "email": "vishal@gmail.com",
+        "password": "11111"
+      }
+    }
+  ]
+}
